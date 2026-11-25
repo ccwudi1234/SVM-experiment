@@ -1,0 +1,40 @@
+|--- gill-color <= 0.50
+|   |--- class: 1
+|--- gill-color >  0.50
+|   |--- spore-print-color <= 1.50
+|   |   |--- stalk-root <= 1.50
+|   |   |   |--- class: 1
+|   |   |--- stalk-root >  1.50
+|   |   |   |--- class: 0
+|   |--- spore-print-color >  1.50
+|   |   |--- gill-size <= 0.50
+|   |   |   |--- spore-print-color <= 4.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- spore-print-color >  4.50
+|   |   |   |   |--- stalk-root <= 2.00
+|   |   |   |   |   |--- habitat <= 3.50
+|   |   |   |   |   |   |--- population <= 4.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- population >  4.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- habitat >  3.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- stalk-root >  2.00
+|   |   |   |   |   |--- class: 0
+|   |   |--- gill-size >  0.50
+|   |   |   |--- odor <= 5.50
+|   |   |   |   |--- odor <= 2.00
+|   |   |   |   |   |--- stalk-shape <= 0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- stalk-shape >  0.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- odor >  2.00
+|   |   |   |   |   |--- stalk-surface-below-ring <= 2.50
+|   |   |   |   |   |   |--- population <= 2.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- population >  2.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- stalk-surface-below-ring >  2.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- odor >  5.50
+|   |   |   |   |--- class: 1

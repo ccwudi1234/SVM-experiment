@@ -1,0 +1,20 @@
+├─ odor = a
+    └─ 预测：可食
+├─ odor = c
+    └─ 预测：有毒
+├─ odor = f
+    └─ 预测：有毒
+├─ odor = l
+    └─ 预测：可食
+├─ odor = m
+    └─ 预测：有毒
+├─ odor = n
+    ├─ spore-print-color = b
+        └─ 预测：可食
+    ├─ spore-print-color = h
+        └─ 预测：可食
+    ├─ spore-print-color = k
+        └─ 预测：可食
+    ├─ spore-print-color = n
+        └─ 预测：可食
+    ├─ spore-print-color = o

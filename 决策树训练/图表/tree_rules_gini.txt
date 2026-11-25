@@ -1,0 +1,58 @@
+|--- gill-color <= 3.50
+|   |--- population <= 3.50
+|   |   |--- stalk-root <= 0.50
+|   |   |   |--- class: 1
+|   |   |--- stalk-root >  0.50
+|   |   |   |--- class: 0
+|   |--- population >  3.50
+|   |   |--- habitat <= 4.50
+|   |   |   |--- stalk-surface-below-ring <= 0.50
+|   |   |   |   |--- stalk-root <= 1.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- stalk-root >  1.50
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- stalk-surface-below-ring >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- habitat >  4.50
+|   |   |   |--- odor <= 3.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- odor >  3.50
+|   |   |   |   |--- class: 0
+|--- gill-color >  3.50
+|   |--- spore-print-color <= 1.50
+|   |   |--- odor <= 3.50
+|   |   |   |--- class: 1
+|   |   |--- odor >  3.50
+|   |   |   |--- class: 0
+|   |--- spore-print-color >  1.50
+|   |   |--- gill-size <= 0.50
+|   |   |   |--- stalk-color-above-ring <= 1.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- stalk-color-above-ring >  1.50
+|   |   |   |   |--- cap-color <= 0.50
+|   |   |   |   |   |--- spore-print-color <= 6.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- spore-print-color >  6.00
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cap-color >  0.50
+|   |   |   |   |   |--- ring-number <= 1.50
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- ring-number >  1.50
+|   |   |   |   |   |   |--- spore-print-color <= 6.00
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- spore-print-color >  6.00
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |--- gill-size >  0.50
+|   |   |   |--- stalk-shape <= 0.50
+|   |   |   |   |--- habitat <= 1.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- habitat >  1.50
+|   |   |   |   |   |--- bruises <= 0.50
+|   |   |   |   |   |   |--- cap-color <= 6.50
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- cap-color >  6.50
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- bruises >  0.50
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- stalk-shape >  0.50
+|   |   |   |   |--- class: 0
